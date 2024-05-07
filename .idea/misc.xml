@@ -4,8 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/xuechengzaixian-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-system/pom.xml" />
         <option value="$PROJECT_DIR$/xuechengzaixian-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xuechengzaixian-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/xuechengzaixian-content/pom.xml" />
       </list>
     </option>
   </component>

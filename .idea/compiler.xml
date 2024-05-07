@@ -2,23 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
-      <profile name="Annotation profile for xuechengzaixian-base" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for xuechengzaixian-content" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../tools/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+          <entry name="$PROJECT_DIR$/../tools/repository/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
+        <module name="xuecheng-plus-system-service" />
+        <module name="xuechengzaixian-content-api" />
+        <module name="xuechengzaixian-content-service" />
         <module name="xuechengzaixian-base" />
+        <module name="xuecheng-plus-system-model" />
+        <module name="xuecheng-plus-system-api" />
+        <module name="xuechengzaixian-content-model" />
+        <module name="xuecheng-plus-generator" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="xuecheng-plus-base" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
